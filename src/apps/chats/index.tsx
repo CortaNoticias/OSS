@@ -4,39 +4,39 @@ import { ChatsAppComponent } from "./components/ChatsAppComponent";
 export const helpItems = [
   {
     icon: "💬",
-    title: "Chat with Ryo",
+    title: "Chatea con IA",
     description:
-      "Type your message to chat with Ryo, generate code, or help with ryOS.",
+      "Escribe tu mensaje!",
   },
   {
     icon: "#️⃣",
-    title: "Join Chat Rooms",
+    title: "Chat",
     description:
-      "Connect with netizens in public chat rooms.",
+      "Conectate con gente",
   },
   {
     icon: "🎤",
-    title: "Push to Talk",
+    title: "Apreta para hablar",
     description:
-      "Hold Space or tap the microphone button to record and send voice messages.",
+      "Mantén espacio, o apreta el micrófono para grabar y enviar mensajes.",
   },
   {
     icon: "📝",
-    title: "Control TextEdit",
+    title: "Controla TextEdit",
     description:
-      "Ask Ryo to read, insert, replace, or delete lines in your open TextEdit document.",
+      "Pide que edite tus textos de TextEdit.",
   },
   {
     icon: "🚀",
-    title: "Control Apps",
+    title: "Controla Apps",
     description:
-      "Ask Ryo to launch or close other applications like Internet Explorer or Video Player.",
+      "Pide que se abran o cierren aplicaciones.",
   },
   {
     icon: "💾",
-    title: "Save Transcript",
+    title: "Guardar Transcripción",
     description:
-      "Save your current chat conversation with Ryo as a Markdown file.",
+      "Guarda tu conversación.",
   },
 ];
 
@@ -55,7 +55,7 @@ export const ChatsApp: BaseApp = {
   id: "chats",
   name: "Chats",
   icon: { type: "image", src: appMetadata.icon },
-  description: "Chat with Ryo, your personal AI assistant",
+  description: "Chatea con IA",
   component: ChatsAppComponent,
   helpItems,
   metadata: appMetadata,
