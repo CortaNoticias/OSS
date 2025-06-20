@@ -4,39 +4,39 @@ import { TextEditAppComponent } from "./components/TextEditAppComponent";
 export const helpItems = [
   {
     icon: "📝",
-    title: "Rich Editing",
-    description: "Type, copy, cut, paste, undo & redo your text with ease",
+    title: "Edición RICH",
+    description: "Escribe, copia, corta, pega, deshaz y rehaz tu texto con facilidad",
   },
   {
     icon: "🎨",
-    title: "Formatting",
-    description: "Bold, italic, underline, headings & alignment options",
+    title: "Formato",
+    description: "Opciones de negrita, cursiva, subrayado, encabezados y alineación",
   },
   {
     icon: "📋",
-    title: "Lists & Tasks",
-    description: "Create bullet, numbered & check-box task lists",
+    title: "Listas y Tareas",
+    description: "Crea listas con viñetas, numeradas y de tareas con casillas",
   },
   {
     icon: "💾",
-    title: "File Management",
+    title: "Gestión de Archivos",
     description:
-      "Create, open, save, and export files (HTML, MD, TXT) with auto-save",
+      "Crea, abre, guarda y exporta archivos (HTML, MD, TXT) con guardado automático",
   },
   {
     icon: "🎤",
-    title: "Voice Dictation",
-    description: "Dictate text hands-free right into the document",
+    title: "Dictado por Voz",
+    description: "Dicta texto sin usar las manos directamente en el documento",
   },
   {
     icon: "⚡",
-    title: "Slash Commands",
-    description: "Type / for quick actions or let Ryo AI edit lines remotely",
+    title: "Comandos de Barra /",
+    description: "Escribe / para acciones rápidas o deja que Ryo AI edite líneas remotamente",
   },
 ];
 
 export const appMetadata = {
-  name: "TextEdit",
+  name: "Editor de Texto",
   version: "1.0",
   creator: {
     name: "Ryo Lu",
