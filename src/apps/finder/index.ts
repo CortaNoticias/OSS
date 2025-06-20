@@ -15,46 +15,46 @@ export const appMetadata = {
 export const helpItems = [
   {
     icon: "🔍",
-    title: "Browse & Navigate",
+    title: "Explorar y navegar",
     description:
-      "Back/Forward buttons, address bar & Go menu for fast navigation",
+      "Botones de retroceso/adelante, barra de direccion y GO menú navegar rápida",
   },
   {
     icon: "📁",
-    title: "File Management",
+    title: "Administrador de Archivos",
     description:
-      "Create folders, rename, move, and drag items to organize files",
+      "Crea carpetas, renombra, mueve y arrastra elementos para organizar archivos.",
   },
   {
     icon: "👀",
-    title: "View & Sort",
+    title: "Ver y ordenar",
     description:
-      "Switch Icon sizes and sort by name, kind, size, or date",
+      "Cambia el tamaño de los iconos y ordena por nombre, tipo, tamaño o fecha",
   },
   {
     icon: "📍",
-    title: "Quick Access",
+    title: "Acceso rápido",
     description:
-      "Jump to Documents, Applications, or Trash instantly from Go menu",
+      "Accede a Documentos, Aplicaciones o Papelera al instante desde el menú GO",
   },
   {
     icon: "ℹ️",
-    title: "Storage Info",
+    title: "Información de almacenamiento",
     description:
-      "See free space & item count in the window footer",
+      "Consulta el espacio libre y el número de elementos en el pie de página",
   },
   {
     icon: "🗑️",
-    title: "Trash",
+    title: "Papelera",
     description:
-      "Drag files to Trash & Empty to permanently delete",
+      "Arrastra archivos a la Papelera y vacíala para eliminarlos permanentemente",
   },
 ];
 
 export const FinderApp: BaseApp = {
   id: "finder",
   name: "Finder",
-  description: "Browse and manage files",
+  description: "Explorar y administrar archivos",
   icon: {
     type: "image",
     src: "/icons/mac.png",
